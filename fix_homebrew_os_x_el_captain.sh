@@ -10,7 +10,7 @@ pkill mysqld_safe
 
 # Remove all traces of MySQL
 brew uninstall --force mysql
-brew reomve mysql
+brew remove mysql
 brew cleanup
 sudo rm /usr/local/mysql
 sudo rm -rf /usr/local/var/mysql
